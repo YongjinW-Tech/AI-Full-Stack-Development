@@ -29,11 +29,20 @@ source ~/.bashrc
 nohup jupyter lab --ip=0.0.0.0 --port=8000 --NotebookApp.token=$JPY_TOKEN --notebook-dir=./ &
 ```
 参数说明：
-    · --ip=0.0.0.0	监听所有 IP，允许远程访问
-    · --port=8000	设置端口为 8000
-    · --NotebookApp.token=$JPY_TOKEN	使用自定义 token
-    · --notebook-dir=./	指定工作目录（你可以改为绝对路径）
-    · & 符号将命令放入后台执行。 这意味着命令会在后台运行，而不会阻塞当前的终端会话
+- `--ip=0.0.0.0`  
+  监听所有 IP，允许远程访问。
+
+- `--port=8000`  
+  设置端口为 8000。
+
+- `--NotebookApp.token=$JPY_TOKEN`  
+  使用自定义 token，避免每次启动时使用随机 token。
+
+- `--notebook-dir=./`  
+  指定工作目录（你可以改为绝对路径，例如 `/home/user/project`）。
+
+- `&`  
+  将命令放入后台执行。这意味着命令会在后台运行，而不会阻塞当前的终端会话。
 
 执行成功后，你会看到提示：
 ```bash
