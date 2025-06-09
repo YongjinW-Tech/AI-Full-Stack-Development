@@ -1,0 +1,22 @@
+# 操作系统生成的临时文件
+*.tmp
+*.bak
+*.swp
+*.log
+
+# 编译生成的文件
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 虚拟环境目录
+.venv/
+venv/
+env/
+env.linux/
+env.win/
+env.win32/
+
+# 忽略指定的日志文件
+nohup.out
