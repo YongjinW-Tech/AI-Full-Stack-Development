@@ -100,7 +100,7 @@ echo $JPY_TOKEN
 ```
 例如：
 ```bash
-http://192.168.1.100:8000/?token=MySecureToken123
+http://192.168.1.100:8000/?token=你的token
 ```
 	•	若在本机使用浏览器访问，IP 就是 localhost 或 127.0.0.1
 	•	若你在远程服务器运行 Jupyter，需要使用该服务器的公网或内网 IP
