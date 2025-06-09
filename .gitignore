@@ -20,3 +20,6 @@ env.win32/
 
 # 忽略指定的日志文件
 nohup.out
+
+# 忽略所有 Jupyter 自动生成的检查点目录：其中**/匹配任意层级的目录（递归）
+**/.ipynb_checkpoints/

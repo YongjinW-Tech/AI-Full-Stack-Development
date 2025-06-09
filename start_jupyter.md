@@ -85,6 +85,10 @@ kill 2758220
 ```bash
 http://<服务器IP>:8000/?token=你的token
 ```
+如果没有记住 Token，使用以下命令输出：
+```bash
+echo $JPY_TOKEN
+```
 例如：
 ```bash
 http://192.168.1.100:8000/?token=MySecureToken123
