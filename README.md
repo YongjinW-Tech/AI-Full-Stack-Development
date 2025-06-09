@@ -4,7 +4,16 @@ This is a personal learning project designed to document and organize the learni
 ### Acknowledgment
 This project is built upon the course repository **DjangoPeng/deepseek-quickstart**（https://github.com/DjangoPeng/deepseek-quickstart）, which provided the initial structure and inspiration. Many thanks to the author for making it publicly available and well-structured for learners.
 
-**Synchronize code**
+### Clone repository (pull code)
+```bash
+git clone https://github.com/YongjinW-Tech/AI-Full-Stack-Development.git
+```
+Enter the project directory:
+```bash
+cd AI-Full-Stack-Development
+```
+
+### Synchronize code
 - If you need to synchronize code changes on GitHub locally, you can use the following command:
 ```bash
 git pull origin main
@@ -20,6 +29,8 @@ rm -rf ~/miniconda3/miniconda.sh
 ```
 
 After installation, it is recommended to create a new Python virtual environment named 'ai-development'.
+
+### (Optional) Create and activate virtual environments (Conda is recommended)
 
 ```shell
 conda create -n ai-development python=3.13
